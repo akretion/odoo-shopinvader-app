@@ -42,6 +42,7 @@
         "shopinvader_search_engine_update_product_template_multi_link",
         "fastapi_captcha_altcha_backend",
         "shopinvader_api_cart_quotation",
+        "shopinvader_api_payment_quotation",
     ],
     "external_dependencies": {"python": ["fastapi"]},
     "data": [

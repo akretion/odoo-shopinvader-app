@@ -27,6 +27,9 @@ from odoo.addons.shopinvader_api_invoice.routers import invoice_router
 from odoo.addons.shopinvader_api_lead.routers import lead_router
 from odoo.addons.shopinvader_api_payment.routers import payment_router
 from odoo.addons.shopinvader_api_payment_cart.routers import cart_payment_router
+from odoo.addons.shopinvader_api_payment_quotation.routers import (
+    quotation_payment_router,
+)
 from odoo.addons.shopinvader_api_quotation.routers import (
     quotation_router,
 )
@@ -66,6 +69,7 @@ class FastapiEndpoint(models.Model):
             lead_router,
             invoice_router,
             altcha_router,
+            quotation_payment_router,
         ]
 
     @api.model
